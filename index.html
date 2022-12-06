@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script src="login.js"></script>
-    </head>
+        <script src="/Scripts/login.js"></script>
+        <script src="/Scripts/jquery-3.6.1.js"></script>
+        <style src="/Stlye/style.css"></style>
+            </head>
     <body>
         <h1 align="center">login</h1>
         <label for="username">Username</label>
         <input type="text" id="username" placeholder="username"><br>
+        <div id="error1" style="display:none">username not found</div>
         <label for="password">Password</label>
         <input type="password" id="password" placeholder="password"><br>
         <input type="button" value="login" id="buttton" onclick="VALID()"   >

@@ -1,8 +1,3 @@
-function login(){
-    if(x == "KKEK" && y=="KKEK"){
-    window.location.replace("dashboard.html");
-}    
-}
 function VALID() {
 var x = document.getElementById("username").value;
 var y = document.getElementById("password").value;
@@ -13,5 +8,10 @@ if(x == ""){
 if(y == ""){
     alert('PLS ENTER PASSWORD ');
 }
-login();
+if(x == "KKEK" && y=="KKEK"){
+    window.location.replace("dashboard.html");
+}
+else{
+    x = 'none';
+}
 }
