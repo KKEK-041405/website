@@ -2,15 +2,32 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4487526203483838"
         crossorigin="anonymous"></script>
-        <script src="/Scripts/login.js"></script>
+        
         <script src="/Scripts/jquery-3.6.1.js"></script>
         
         <link href="/Stlye/bootstrap.min.css" rel="stylesheet">
+        <script src="/Scripts/login.js">function VALID() {
+            var x = document.getElementById("username").value;
+            var y = document.getElementById("password").value;
+            //alert('PLS ENTER USERNAME');
+            if(x == ""){
+                alert('PLS ENTER USERNAME');
+            }
+            if(y == ""){
+                alert('PLS ENTER PASSWORD ');
+            }
+            if(x == "KKEK" && y=="KKEK"){
+                window.location.replace("dashboard.html");
+            }
+            else{
+                x = 'none';
+            }
+            }</script>
         <style src="/Stlye/style.css"></style>
-            </head>
+    </head>
     <body>
         <h1 align="center" class="h-75">login</h1>
         <label for="username">Username</label>
