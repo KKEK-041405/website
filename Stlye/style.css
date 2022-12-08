@@ -1,8 +1,8 @@
 #games{
     font-style:oblique;
 }
-#title{
-    background-color: #111111;
+.title{
+    background-color: #567895;
     color:aliceblue;                                                                         
     position: fixed;
     bottom: 0;
@@ -13,6 +13,6 @@
 #error1{
     display:none;
 }
-.background{
-    background-color: #567895;
+#title{
+    align-self: start;
 }
